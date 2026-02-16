@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TestoShoop — FiveM & Minecraft Marketplace</title>
+  <meta name="description"
+    content="Your one-stop marketplace for premium FiveM and Minecraft scripts, plugins, maps, and tools." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <!-- Background -->
+  <div class="bg-grid" aria-hidden="true"></div>
+  <canvas id="bg-lines" aria-hidden="true"></canvas>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-icon">⬡</span>
+        <span class="logo-text">Testo<span class="logo-accent">Shoop</span></span>
+      </a>
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link" data-page="home">Home</a></li>
+        <li><a href="#catalog" class="nav-link" data-page="catalog">Catalog</a></li>
+        <li><a href="#faq" class="nav-link" data-page="faq">FAQ</a></li>
+        <li><a href="#support" class="nav-link" data-page="support">Support</a></li>
+        <li><a href="#login" class="nav-link nav-link--login" data-page="login">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page content rendered here -->
+  <main id="app"></main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="nav-logo">
+            <span class="logo-icon">⬡</span>
+            <span class="logo-text">Testo<span class="logo-accent">Shoop</span></span>
+          </a>
+          <p class="footer-desc">The #1 marketplace for FiveM & Minecraft resources. Built with ❤️ by creators.</p>
+        </div>
+        <div class="footer-links-group">
+          <h4>Marketplace</h4>
+          <ul>
+            <li><a href="#catalog">Catalog</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-group">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#support">Support</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-group">
+          <h4>Community</h4>
+          <ul>
+            <li><a href="#">Discord</a></li>
+            <li><a href="#">Twitter / X</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 TestoShoop. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="./main.js"></script>
+</body>
+
+</html>
