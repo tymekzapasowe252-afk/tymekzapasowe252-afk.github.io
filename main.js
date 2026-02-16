@@ -79,8 +79,7 @@ const pages = {
             <span class="hero-title--highlight alt">Minecraft</span>
           </h1>
           <p class="hero-subtitle">
-            Discover scripts, plugins, maps, and resources crafted by the community.
-            Everything you need to power up your server — in one place.
+            Discover Best Cheeto For Fivem And Minecraft.
           </p>
           <div class="hero-cta">
             <a href="#catalog" class="btn btn--primary">
@@ -93,7 +92,7 @@ const pages = {
           <div class="hero-stats">
             <div class="stat">
               <span class="stat-number" data-target="2500">0</span>+
-              <span class="stat-label">Resources</span>
+              <span class="stat-label">Opinions</span>
             </div>
             <div class="stat">
               <span class="stat-number" data-target="840">0</span>+
@@ -843,3 +842,4 @@ function initBackgroundLines() {
   resize();
   window.addEventListener('resize', resize);
 }
+
