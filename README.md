@@ -1,0 +1,1 @@
+# tymekzapasowe252-afk.github.io
